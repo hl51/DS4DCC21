@@ -1,1 +1,27 @@
 CleverCogs Report Draft 
+
+Abstract 
+
+CleverCogs is a customisable, tablet-based entertainment system designed for people with disabilities or care needs. 
+
+Introduction 
+
+What is clevercogs?
+users, purpose, benefits, 
+How is data generated? 
+user-generated data which captures the links clicked 
+What is the question the data owner seeks to answer? 
+'others like you' 
+
+
+The dataset and cleaning 
+
+Description of the dataset 
+What exactly is being measured? (clicks - talk about bias) 
+How dataset is structued/coded (eg ID links etc) 
+What values are missing, what values are useful etc. 
+What has been excluded from the dataset and what needs to be taken into consideration 
+
+Results 
+Data demographics (age, gender, etc) 
+
