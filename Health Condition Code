@@ -1,0 +1,30 @@
+
+category_dict = {'Addiction Issues': ['mental health illnesses'],
+ 'Bi Polar Disorder': ['mental health illnesses'],
+ 'Mental Health Issues': ['mental health illnesses'],
+ 'OCD': ['mental health illnesses'], 
+'COPD': ['physical disabilites'],
+'Asthma': ['physical disabilites'],
+'Muscular Dystrophy': ['physical disabilites'],
+'Cancer': ['physical disabilites'],
+'Dementia': ['elderly'],
+'Elderly Care/Support': ['elderly'],
+'Cerebral Palsy': ['physical/mental disabilites'],
+'Epilepsy': ['physical/mental disabilites'],
+'Multiple Sclerosis': ['physical/mental disabilites'],
+'Diabetes': ['physical disabilites'],
+'Amputee': ['physical disabilites'],
+'Stroke': ['physical/mental disabilites'],
+'Visual Impairment': ['physical disabilites'],
+'Spina Bifida': ['physical disabilites'],  
+'Learning Difficulties': ['intellectual disabilites'],
+'Down Syndrome': ['intellectual disabilites'],
+'Brain Injury': ['physical/mental disabilites'],
+"Huntington's": ['physical/mental disabilites'],
+'Lifelong Mobility Issues': ['physical disabilites'],
+'Spinal Injury': ['physical disabilites']}
+
+
+flatten_dict = {k:v[0] for k,v in category_dict.items()} ##### 
+
+new['category'] = new['CareSysCondition'].map(flatten_dict) ##### CareSysCondition I think is called Carcons in yours, and new = data
