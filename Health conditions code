@@ -25,3 +25,8 @@ category_dict = {'Addiction Issues': ['mental health illnesses'],
 
 
 ###Hey Heather, Here is the code to break the health conditions into categories 
+
+
+flatten_dict = {k:v[0] for k,v in category_dict.items()} ##### 
+
+new['category'] = new['CareSysCondition'].map(flatten_dict) ##### CareSysCondition I think is called Carcons in yours, and new = data
